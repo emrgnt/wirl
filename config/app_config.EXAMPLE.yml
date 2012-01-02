@@ -1,0 +1,29 @@
+development:
+    domain:             localhost:3000
+    app_name:           App
+    twitter_key:        
+    twitter_secret:     
+    facebook_key:       
+    facebook_secret:    
+    linked_in_key:      
+    linked_in_secret:   
+
+test:
+    domain:             test.host
+    app_name:           App
+    twitter_key:        
+    twitter_secret:     
+    facebook_key:       
+    facebook_secret:    
+    linked_in_key:      
+    linked_in_secret:   
+
+production:
+    domain:             example.com
+    app_name:           App
+    twitter_key:        
+    twitter_secret:     
+    facebook_key:       
+    facebook_secret:    
+    linked_in_key:      
+    linked_in_secret:
