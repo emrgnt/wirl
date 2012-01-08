@@ -9,6 +9,7 @@ gem 'devise'
 gem 'omniauth'
 gem 'jquery-rails'
 gem "less"
+gem 'thin'
 
 gem 'sqlite3', :groups => [:development, :test]
 
@@ -30,7 +31,6 @@ end
 
 group :production do
   gem 'pg'
-  gem 'thin'
 end
 
 # Use unicorn as the web server
