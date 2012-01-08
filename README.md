@@ -1,3 +1,4 @@
+
 # Skellington app - Simple boilerplate app with social login
 
 I needed a simple starting point app for prototyping facebook/twitter app. It doesn't have a lot of bells and whistles, mostly just followed the Railscasts on Devise (user auth) and Omniauth (third party auth).
