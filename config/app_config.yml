@@ -1,6 +1,6 @@
 development:
     domain:             localhost:3000
-    app_name:           App
+    app_name:           Wizards In Real Life
     twitter_key:        
     twitter_secret:     
     facebook_key:       
@@ -10,7 +10,7 @@ development:
 
 test:
     domain:             test.host
-    app_name:           App
+    app_name:           Wizards In Real Life
     twitter_key:        
     twitter_secret:     
     facebook_key:       
@@ -20,7 +20,7 @@ test:
 
 production:
     domain:             example.com
-    app_name:           App
+    app_name:           Wizards In Real Life
     twitter_key:        
     twitter_secret:     
     facebook_key:       
