@@ -19,7 +19,7 @@ test:
     linked_in_secret:   
 
 production:
-    domain:             example.com
+    domain:             wirl.herokuapp.com
     app_name:           Wizards In Real Life
     # FILL IN FOLLOWING LINES WITH REAL ACCOUNTS (POINTING TO HEROKU)
     # twitter_key:        
