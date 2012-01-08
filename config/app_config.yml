@@ -21,9 +21,9 @@ test:
 production:
     domain:             example.com
     app_name:           Wizards In Real Life
-    twitter_key:        
-    twitter_secret:     
-    facebook_key:       
-    facebook_secret:    
-    linked_in_key:      
-    linked_in_secret:
+    # twitter_key:        
+    # twitter_secret:     
+    # facebook_key:       
+    # facebook_secret:    
+    # linked_in_key:      
+    # linked_in_secret:
