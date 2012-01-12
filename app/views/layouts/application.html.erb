@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title><%= content_for?(:title) ? yield(:title) : APP_CONFIG[:app_name] %></title>
-	<%= stylesheet_link_tag "bootstrap-1.0.0.min", "bootstrap-doc-styles", "omniauth", "application" %>
+	<%= stylesheet_link_tag "bootstrap-1.0.0.min", "bootstrap-doc-styles", "omniauth", "application", "homepage" %>
 	<%= javascript_include_tag :defaults %>
 	<%= csrf_meta_tag %>
 	<%= yield(:head) %>
@@ -70,9 +70,8 @@
 		<div class="inner">
 			<div class="container">
 				<p class="right"><a href="#">Back to top</a></p>
-				<p>Simple tutorials followed &amp; plugins compiled by <a href="http://twitter.com/danielmorris" target="_blank">@danielmorris</a>. <br/>
-				<%= link_to "Docs & code live on github", "https://github.com/danieljohnmorris/skel" %>.
-				</p>
+				<p>A game project by <a href="http://twitter.com/danielmorris" target="_blank">@danielmorris</a>.</p>
+				<p>Follow updates on the <a href="http://greattinygamechallenge.tumblr.com/tagged/WIRL">great tiny game challenge</a> blog.</p>
 			</div>
 		</div>
 	</div>
