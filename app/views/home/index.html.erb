@@ -1,3 +1,4 @@
+<div id="homepage">
 <% content_for :masthead do %>
 <!--<div id="masthead">
       <div class="inner">
@@ -14,24 +15,21 @@
 <% end %>
 
 <% 
-title "Welcome to your new app"
-content_for :subtitle do "Let's get started" end
+title "Ready to get wizarding?"
+# content_for :subtitle do "Let's get started" end
 %>
 
 <div class="row">
 	<div class="span8 columns">
-
-		<p>Cardigan wes anderson skateboard cliche gluten-free chambray whatever terry richardson. Lo-fi pitchfork quinoa, thundercats tattooed organic artisan bicycle rights next level skateboard helvetica gluten-free DIY.</p>
 		
-		<p>Echo park butcher cosby sweater blog organic williamsburg Austin sartorial beard wolf. Sustainable quinoa tattooed put a bird on it skateboard irony chambray american apparel fixie organic. Skateboard wayfarers marfa viral, beard messenger bag seitan VHS yr. </p>
-		<p>Synth butcher fixie, single-origin coffee brunch food truck master cleanse thundercats letterpress whatever american apparel terry richardson seitan gentrify gluten-free. Scenester stumptown biodiesel fap high life. Etsy raw denim carles synth, vinyl mixtape you probably haven't heard of them salvia leggings. Craft beer biodiesel DIY Austin, artisan shoreditch fixie squid salvia fanny pack mustache quinoa.</p>
+		<p>WIRL is a game you play on your phone or your browser, transforming you into a wizard of awesomeness with magical powers!</p>
+		<p><%= link_to "Sign in", authentications_path, :class => "btn large primary" %> or <%= link_to "Create an account", new_user_registration_path, :class => "btn large" %></p>
+		<img width="100%" src="/images/wizard-cityscape.jpg" alt="Wizards in the city!"/>
 
 	</div>
 	<div class="span8 columns">
 
-		<p>Messenger bag locavore food truck mustache high life VHS butcher, banh mi vinyl. Etsy thundercats brunch seitan butcher jean shorts, twee before they sold out williamsburg. Williamsburg high life keffiyeh banh mi, marfa echo park whatever sustainable wolf mustache salvia. Terry richardson mixtape fanny pack gentrify iphone leggings fixie locavore, shoreditch messenger bag hoodie. Photo booth lomo stumptown banksy. </p>
-
-		<p><a href="http://hipsteripsum.me/">I want Hipster Ipsum too.</a></p>
 
 	</div>
+</div>
 </div>
