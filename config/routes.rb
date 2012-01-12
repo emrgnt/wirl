@@ -1,12 +1,20 @@
 App::Application.routes.draw do
+
   resources :authentications
   devise_for :users, :controllers => {:registrations => 'registrations'}
   resources :users
   match '/auth/:provider/callback' => 'authentications#create'
 
   get "home/index"
-  root :to => "home#index"
 
+  root :to => "home#index"
+  namespace :user do
+    root :to => "users#index"
+  end
+
+  match 'me' => 'me#index', :as => 'user_root'
+  get "me/index"
+   
   get "about/index"
   match "about" => "about#index"
 
