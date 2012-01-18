@@ -26,6 +26,7 @@ end
 
 group :test do
   # Pretty printed test output
+  gem 'ZenTest'
   gem 'cucumber'
     gem 'cucumber-rails'
     gem 'cucumber-screenshot'

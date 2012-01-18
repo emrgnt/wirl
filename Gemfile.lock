@@ -257,6 +257,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ZenTest
   autotest-notification
   autotest-rails
   capybara
